@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #faebd7;
+  color: #000;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/254/131/original/flat-design-colorful-mexican-background-vector.jpg)
+}
+
+
+
+.Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding: 2em;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  color: white;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  height: 250px;
+  transform: perspective(1000px) rotateX(var(--rotate-X, 0))
+}
+
+.Header{
+background-color:darkblue;
+
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  height: 250px;
+  cursor: pointer;
+  transition: .15s;
+  transform: perspective(1000px) rotateX(var(--rotate-X, 0))
+
+}
+
+.card:hover {
+  box-shadow: 0 0 5px 2px plum;
+}
+
+.card{
+  background-color: #646cff;
+}
+
+
+.card.flipped{
+   --rotate-X: 180deg;
+}
+
+
+
+
+.card-text{
+color: white;
+}
+
+.back{
+  transform: rotatex(180deg);
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: .6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color .25s
+  
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      color:#213547;
+      background-color: #fff
+  }
+
+  a:hover {
+      color: #747bff
+  }
+
+  button {
+      background-color: #f9f9f9
+  }
+}
+.guess-check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding: 2em;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  color: white;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  height: 50px;
+}
+
+.guesscard{
+background-color:lightblue;
+
+}
+.guess-check{
+  background-color: royalblue;
+}
+
+.check-button{
+background-color: blue;
+color: white;
+}
+
+.backButton{
+background-color: blue;
+color: white;
+}
+
+.randomButton{
+background-color: blue;
+color: white;
+}
+
+.nextButton{
+background-color: blue;
+color: white;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
