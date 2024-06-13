@@ -1,6 +1,6 @@
-# Web Development Project 3 - *Guess The Spanish Word*
+# Name - *Guess The Spanish Word*
 
-Submitted by: **Bryan Pineda**
+ Created by: **Bryan Pineda**
 
 This web app: **Users are able to test their knowledge on Spanish words by guessing and will be able to gain points if guessed correctly**
 
