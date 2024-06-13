@@ -1,4 +1,4 @@
-# Name - *Guess The Spanish Word*
+# App Name - *Guess The Spanish Word*
 
  Created by: **Bryan Pineda**
 
