@@ -1,4 +1,4 @@
-# App Name - *Guess The Spanish Word*
+# App Name - *SpanishFlash*
 
  Created by: **Bryan Pineda**
 
