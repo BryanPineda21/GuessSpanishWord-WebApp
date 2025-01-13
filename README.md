@@ -2,6 +2,8 @@
 
  Created by: **Bryan Pineda**
 
+🚧 Project Under Construction, Missing code not commited yet 🚧
+
 This web app: **Users are able to test their knowledge on Spanish words by guessing and will be able to gain points if guessed correctly**
 
 Time spent: **7** hours spent in total
